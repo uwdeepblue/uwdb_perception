@@ -1,4 +1,12 @@
-# Denoising technique research
+# Research and Development
+
+This folder is where work done for research and testing of algorithms and techniques lives.
+
+## OpenCV Classifier Research
+
+This is intended to act as a testing environment to support ongoing research for the UWDB perception software. Currently developing for this branch using WSL (should work on Windows too) and Python, so instructions will reflect this. What language we actually end up using is (I think?) up for debate, but for ease of use I'll be using Python for research (as much as I despise Python runtime and dependency management).
+
+## Denoising technique research
 
 This is intended to act as a testing environment to support ongoing research for the UWDB perception software. Currently developing for this branch using WSL (should work on Windows too) and Python, so instructions will reflect this. What language we actually end up using is (I think?) up for debate, but for ease of use I'll be using Python for research. Focus here is on implementing and comparing different techniques for denoising, allowing us to make accurate classifications of underwater objects. The actual amount of denoising necessary will depend on the camera in use, but this will be a good environment to determine how we want to process our images before classification.
 
